@@ -1,17 +1,19 @@
+################################################################################
 # Copy List with Random Pointer
 
-# A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
+# A linked list is given such that each node contains an additional random 
+# pointer which could point to any node in the list or null.
 # Return a deep copy of the list.
 
 
 # Definition for singly-linked list with a random pointer.
-class RandomListNode(object):
-    def __init__(self, x):
-        self.label = x
-        self.next = None
-        self.random = None
+# class RandomListNode(object):
+#     def __init__(self, x):
+#         self.label = x
+#         self.next = None
+#         self.random = None
 
-
+################################################################################
 # Solution Notes:
 
 # 1. O(n) extra space solution
@@ -26,6 +28,7 @@ class RandomListNode(object):
 # 2. O(1) space solution
 #       Insert the copy of each node next to the original node in the same Linkedlist
 #       new.random = cur.random.next
+################################################################################
 
 
 class Solution(object):
