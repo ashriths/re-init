@@ -1,1 +1,5 @@
-vcs.xml
+.idea/vcs.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/re-init.iml
+.idea/workspace.xml
